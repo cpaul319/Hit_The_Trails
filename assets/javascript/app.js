@@ -18,7 +18,7 @@ var lat;
 var lon;
 var userEmail;
 function getLocation() {
-
+console.log = function() {}
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
     } else {
