@@ -1,0 +1,317 @@
+
+p { 
+  background: black;
+  cursor: pointer;
+  margin: 1.5rem;
+  color: white;
+}
+
+img{
+ width:100%;
+ height: auto;
+}
+
+.hikePic{
+  width:100%;
+  height: auto;
+}
+
+p:hover { 
+  background-color: lightgray;
+  color: black;
+}
+ 
+/*added this to push footer down */
+
+.modal-stars, .modal-location, .modal-message{
+  text-align: center;
+}
+
+.pointer{ 
+  cursor: pointer;
+ }  
+
+h1, h2, h3, h4 {
+    color:#ffffff;
+}
+#modalComment{
+    color: black;
+}
+html {
+  height: 100%;
+}
+.btn{
+  margin: 1rem;
+  background: black;
+  border: 1px solid black;  
+
+}
+div{
+  height: auto;
+}
+
+.btn:hover, .btn-primary:visited, .btn-primary:focus, .btn-primary:active {
+  background-color: grey !important;
+  border: 1px solid black; 
+
+}
+#removeFavorite{
+  color: gray;
+  margin: 0;
+}
+
+.appContent {
+background-color: rgba(0, 0, 0, 0.8);
+border-radius: .15rem;
+margin-bottom: .5rem;
+}
+
+.displayImage{
+  height: 200px;
+  width: 200px;
+  border: 1px solid yellow; 
+  float: left;
+  margin: 1rem .5rem;
+}
+
+.displayImage::after {
+  clear:both;
+  display:table;
+  content: "";
+ 
+}
+#smallModalMessage{
+  text-align: center;
+  font-weight: bold;
+  height: 100px;
+  width: 300px;
+}
+
+body {
+  height: auto;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+ 
+}
+ 
+/* made because the background was creating white space when i was resizing the page*/
+
+#main-container {
+ 
+  background: url("../images/park2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: auto;
+  padding-bottom: 4rem;
+}
+
+#contentHeader h1{
+  font-family: 'Fugaz One', cursive;
+}
+
+#jumbotron {
+  margin-bottom: 0;
+  height:auto;
+  
+  
+}
+
+.title-text{
+    font-weight: 400;
+    font-family: 'Fugaz One', cursive;
+}
+
+#title-box {
+  background: rgba(0, 0, 0, 0.8);
+  padding: .25rem;
+  border-radius: .15rem;
+}
+
+.jumbotron {
+    background:none;
+    margin-bottom: 0;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#title-p {
+  background: none;
+  border:none;
+}
+
+.grid {
+  display: grid;
+}
+
+/*added this div with info so we could maybe have some pre loaded content*/
+
+.secondary-info {
+  grid-gap: .5rem;
+  grid-template-columns: 1fr ;
+  grid-auto-rows: minmax(100px, auto); 
+  margin: .5rem auto .25rem;
+
+}
+
+#location {
+  background: rgba(0, 0, 0, 0.8);
+  grid-template-columns: 1fr;
+  grid-row: 1/4;
+  padding:.5rem;
+  border-radius: .15rem;
+}
+#location img {
+  margin: .5rem;
+  height: 100%;
+}
+
+ .weather { 
+  background: rgba(0, 0, 0, 0.8);
+   grid-template-columns: 1fr;
+   grid-row: auto; 
+   padding: .5rem; 
+   border-radius: .15rem; 
+   text-align: center;
+ } 
+
+ .box-2 {
+   grid-gap: .5rem;
+  
+ }
+
+.box-3 {
+  grid-gap: .5rem;
+  grid-template-columns: 1fr ;
+  grid-auto-rows: minmax(100px, auto); 
+  margin: .25rem 1rem 1rem;
+  padding:1rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: .15rem;
+  
+}
+.user-display {
+  margin: 5%;
+  font-size: .75rem;
+  color: white;
+  text-align: center;
+}
+
+#user-display-name {
+  color: white;
+}
+
+#profile-info {
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+#signed-in {
+  grid-template-columns: 1fr;
+
+}
+
+#profile-trails {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.small-title {
+  text-align: center;
+  font-weight:500;
+  color: white;
+  cursor: pointer;
+}
+
+#your-profile h5 {
+  padding-bottom: .5rem;
+  border-bottom: 1px solid white;
+}
+
+#pageQuotes p{
+  pointer-events: none;
+}
+
+footer::before {
+  clear:both;
+  display: table;
+  content: "";
+}
+.footer {
+  width: 100%;
+  opacity: .8;
+  text-align: center;
+  height: 4rem;
+  background: black;
+  color: white;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  position:absolute;
+  bottom: 0; 
+}
+/* weather css */
+#heading {
+  font-family: 'Fugaz One', cursive;
+}
+#view-fav-btn {
+  background: white;
+}
+
+.weather .temp {
+  margin-top: 0px;
+}
+
+.weather .iconpic img {
+  max-width: 150px;
+  max-height: 150px;
+} 
+#hikerImageHeader{
+  
+  max-height: 75px;
+  max-width: 75px;
+}
+#hikerImage {
+  display:block;
+  margin: 0  auto;
+  max-height: 100px;
+  max-width: 100px;
+}
+/* media queries */
+@media (min-width:768px){
+
+  .grid-wrapper {
+      display:grid;
+      grid-gap: 1rem;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .box-1 {
+    grid-column: 1/3;
+  
+  }
+  .box-2{
+    margin-top:.75rem; 
+    grid-column: 3/4;
+  }
+
+  #hikerImage {
+    display:block;
+    margin: 1rem auto 5rem;
+    max-height: 100px;
+    max-width: 100px;
+  }
+  #your-profile {
+    margin-top: 10rem;
+  }
+  #profile-info {
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  #signed-in {
+    grid-column: 1fr;
+  }
+}
