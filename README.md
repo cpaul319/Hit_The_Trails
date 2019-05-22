@@ -1,4 +1,4 @@
-# NationalParkApp
+# Hit the Trails
 ## Project Description
 ### Hit the Trails app is a search tool that allows the user to find hiking trails near their location.  Provides a list of nearby trails with location, description, pictures, and ratings. Users have the ability to sing up/ sign in and save their favorite trail.  App also displays current weather and gives driving directions on a map.
 
@@ -28,4 +28,4 @@
 * Christopher Lee Paul - [@cpaul319](https://github.com/cpaul319)
 * Daniel Ardelean - [@dacicus75](https://github.com/dacicus75)
 
-This site was built using [GitHub Pages](https://khemsoth.github.io/NationalParkApp/
+This site was built using [GitHub Pages](https://cpaul319.github.io/Hit_The_Trails/
