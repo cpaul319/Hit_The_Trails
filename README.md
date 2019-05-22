@@ -28,4 +28,7 @@
 * Christopher Lee Paul - [@cpaul319](https://github.com/cpaul319)
 * Daniel Ardelean - [@dacicus75](https://github.com/dacicus75)
 
+![screenshot data with input](hitTheTrails.png)
+
+
 This site was built using [GitHub Pages](https://cpaul319.github.io/Hit_The_Trails/
