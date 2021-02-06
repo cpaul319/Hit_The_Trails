@@ -1,34 +1,39 @@
 # Hit the Trails
-## Project Description Minor change to test github
-### Hit the Trails app is a search tool that allows the user to find hiking trails near their location.  Provides a list of nearby trails with location, description, pictures, and ratings. Users have the ability to sing up/ sign in and save their favorite trail.  App also displays current weather and gives driving directions on a map.
 
+## Project Description Minor change to test github
+
+### Hit the Trails app is a search tool that allows the user to find hiking trails near their location. Provides a list of nearby trails with location, description, pictures, and ratings. Users have the ability to sing up/ sign in and save their favorite trail. App also displays current weather and gives driving directions on a map.
 
 ## Technology
 
-### Frontend
-* Shards UI kit (Bootstrap)
-* jQuery 
-* Ajax
-* CSS Grid
-* Modals
-* Mobile responsive
+Qucik test
 
+### Frontend
+
+- Shards UI kit (Bootstrap)
+- jQuery
+- Ajax
+- CSS Grid
+- Modals
+- Mobile responsive
 
 ### APIs
-* Hiking Project
-* Open Weather
-* Google Maps
+
+- Hiking Project
+- Open Weather
+- Google Maps
 
 ### Database
-* Firebase User Login 
+
+- Firebase User Login
 
 ## Team Members
-* Keith Hemsoth - [@khemsoth](https://github.com/khemsoth)
-* David Lawrence - [@davidlawrence1985](https://github.com/davidlawrence1985)
-* Christopher Lee Paul - [@cpaul319](https://github.com/cpaul319)
-* Daniel Ardelean - [@dacicus75](https://github.com/dacicus75)
+
+- Keith Hemsoth - [@khemsoth](https://github.com/khemsoth)
+- David Lawrence - [@davidlawrence1985](https://github.com/davidlawrence1985)
+- Christopher Lee Paul - [@cpaul319](https://github.com/cpaul319)
+- Daniel Ardelean - [@dacicus75](https://github.com/dacicus75)
 
 ![screenshot data with input](hitTheTrails.png)
-
 
 This site was built using [GitHub Pages](https://cpaul319.github.io/Hit_The_Trails/
