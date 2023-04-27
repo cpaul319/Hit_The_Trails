@@ -6,7 +6,7 @@
 
 ## Technology
 
-Qucik test
+
 
 ### Frontend
 
